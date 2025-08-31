@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thêm vào giỏ hàng</title>
+</head>
+<body>
+    <h2>Thêm sản phẩm vào giỏ hàng</h2>
+    <form action="add_to_cart.php" method="post">
+        <label for="name">Tên sản phẩm:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="price">Giá:</label><br>
+        <input type="number" id="price" name="price" required><br><br>
+
+        <label for="quantity">Số lượng:</label><br>
+        <input type="number" id="quantity" name="quantity" value="1" required><br><br>
+
+        <input type="submit" value="Thêm vào giỏ">
+    </form>
+
+    <p><a href="view_cart.php">Xem giỏ hàng</a></p>
+</body>
+</html>
